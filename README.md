@@ -47,6 +47,27 @@ Find all the architecture and design documents in the **documents** folder:
 
 ## 🛠️ Build With
 
+<a href="https://react.dev" target="_blank">
+    <img align="left" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React.js" height="42px"/>
+</a>
+<a href="https://tailwindcss.com" target="_blank">
+    <img align="left" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="TailwindCSS" height="42px"/>
+</a>
+<a href="https://nodejs.org" target="_blank">
+    <img align="left" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" height="42px"/>
+</a>
+<a href="https://expressjs.com" target="_blank">
+    <img align="left" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" height="42px"/>
+</a>
+<a href="https://ffmpeg.org" target="_blank">
+    <img align="left" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/FFmpeg_Logo_new.svg" alt="FFmpeg" height="42px"/>
+</a>
+<a href="https://vercel.com" target="_blank">
+    <img align="left" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original-wordmark.svg" alt="Vercel" height="42px"/>
+</a>
+
+<br/><br/>
+
 - **Frontend:** React.js, TailwindCSS
 - **Backend:** Node.js, Express.js
 - **Video Processing:** FFmpeg
@@ -61,6 +82,10 @@ Find all the architecture and design documents in the **documents** folder:
 
 ```sh
 git clone https://github.com/Bishal1030/PlayWave-VideoStreaming.git
+```
+### 1️⃣ Navigate to the project directory
+
+```sh
 cd PlayWave-VideoStreaming
 ```
 
@@ -73,13 +98,13 @@ npm install
 ### 3️⃣ Start Development Server
 
 ```sh
-npm run dev
+npm start
 ```
 
 ### 4️⃣ Visit the App
 
 ```sh
-http://localhost: 5173
+http://localhost:3000
 ```
 
 ---
@@ -107,10 +132,16 @@ git checkout -b feature-branch-name
 ```
 
 3️⃣ **Make Your Changes & Commit**
+
+***Add your changes:***
 ```sh
 git add .
+```
+***Commit your changes***
+```sh
 git commit -m "Your message here"
 ```
+
 
 4️⃣ **Push to Your Fork**
 ```sh
@@ -124,6 +155,30 @@ Go to [Original Repo](https://github.com/Bishal1030/PlayWave-VideoStreaming.git)
 ---
 
 ## ⚖️ License
+
+### Apache License 2.0
+
+```
+Apache License
+Copyright (c) 2022 Bishal Shahi
+
+"License" shall mean the terms and conditions for use, reproduction,
+and distribution as defined by Sections 1 through 9 of this document.
+
+"Licensor" shall mean the copyright owner or entity authorized by
+the copyright owner that is granting the License.
+
+"Legal Entity" shall mean the union of the acting entity and all
+other entities that control, are controlled by, or are under common
+control with that entity. For the purposes of this definition,
+"control" means (i) the power, direct or indirect, to cause the
+direction or management of such entity, whether by contract or
+otherwise, or (ii) ownership of fifty percent (50%) or more of the
+outstanding shares, or (iii) beneficial ownership of such entity.
+
+"You" (or "Your") shall mean an individual or Legal Entity
+exercising permissions granted by this License...
+```
 
 This project is licensed under the **Apache License 2.0**.
 
