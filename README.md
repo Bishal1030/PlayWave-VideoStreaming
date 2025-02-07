@@ -1,6 +1,5 @@
 # PlayWave: Video Streaming App
 
-![PlayWave Logo](https://via.placeholder.com/600x200?text=PlayWave+Video+Streaming+App)
 
 A lightweight and efficient **video streaming application** built with **React, Node.js, and FFmpeg**, allowing users to **upload, process, and stream videos** seamlessly.
 
@@ -30,9 +29,9 @@ PlayWave is an intuitive video streaming platform that allows users to upload vi
 
 Find all the architecture and design documents in the **documents** folder:
 
-- [📜 Architecture Design Document (ADD)]([documents/Architecture_Design.md](https://docs.google.com/document/d/1NDdKjVpmyU0XsuU9hug-WwuQgxMOEJ7qYrbXcowA4_A/edit?usp=sharing))
-- [📜 High-Level Design (HLD)](documents/HLD.md)
-- [📜 Low-Level Design (LLD)](documents/LLD.md)
+- [📜 Architecture Design Document (ADD)](https://docs.google.com/document/d/1NDdKjVpmyU0XsuU9hug-WwuQgxMOEJ7qYrbXcowA4_A/edit?usp=sharing)
+- [📜 High-Level Design (HLD)](https://docs.google.com/document/d/1Iy6VMGecBGZWS-3VTBLAoyaLZnp5ehZigVJXZpNd2zo/edit?usp=sharing)
+- [📜 Low-Level Design (LLD)](https://docs.google.com/document/d/1J44Jz9v8nM1AdTe0qqYRZoNfEDarSrM_VbPgfkXHaGw/edit?usp=sharing)
 
 ---
 
@@ -74,13 +73,13 @@ npm install
 ### 3️⃣ Start Development Server
 
 ```sh
-npm start
+npm run dev
 ```
 
 ### 4️⃣ Visit the App
 
 ```sh
-http://localhost:3000
+http://localhost: 5173
 ```
 
 ---
@@ -138,4 +137,4 @@ Developed by **Bishal Shahi** ✨
 🔗 **LinkedIn:** [Bishal Shahi](https://linkedin.com/in/bishal1030)  
 🔗 **Leetcode:** [@BishalShahi](https://leetcode.com/u/vishal4shahi/)  
 
-Special thanks to **Gigma** for inspiration on UI design. 🙌
+Special thanks to **Gigma** for inspiration on this project. 🙌
