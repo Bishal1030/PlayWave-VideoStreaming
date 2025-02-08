@@ -1,3 +1,6 @@
+/* Import Karantina font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +42,14 @@
 
 .read-the-docs {
   color: #888;
+}
+
+h1.top-left {
+    position: absolute;
+    margin-left: 2rem;
+    top: 10px;
+    left: 10px;
+    font-family: 'Karantina', cursive;
+    font-size: 2rem;
+    color: #fff;
 }

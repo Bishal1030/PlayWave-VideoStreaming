@@ -700,3 +700,556 @@
 {"level":"error","message":"FFmpeg stderr: [libx264 @ 0000021b980bab00] frame I:39    Avg QP:17.86  size:216084\r\n[libx264 @ 0000021b980bab00] frame P:3702  Avg QP:21.23  size: 23158\r\n[libx264 @ 0000021b980bab00] frame B:5878  Avg QP:23.84  size:  3105\r\n[libx264 @ 0000021b980bab00] consecutive B-frames:  9.5% 20.5% 19.8% 50.2%\r\n[libx264 @ 0000021b980bab00] mb I  I16..4: 12.9% 65.3% 21.8%\r\n[libx264 @ 0000021b980bab00] mb P  I16..4:  2.7%  5.1%  0.2%  P16..4: 35.2%  9.8%  6.9%  0.0%  0.0%    skip:40.1%","service":"user-service"}
 {"level":"error","message":"FFmpeg stderr: \r\n[libx264 @ 0000021b980bab00] mb B  I16..4:  0.3%  0.3%  0.0%  B16..8: 28.8%  0.8%  0.1%  direct: 1.1%  skip:68.6%  L0:36.8% L1:60.2% BI: 3.0%\r\n[libx264 @ 0000021b980bab00] 8x8 transform intra:62.8% inter:69.1%\r\n[libx264 @ 0000021b980bab00] coded y,uvDC,uvAC intra: 22.1% 30.0% 3.7% inter: 7.3% 6.4% 0.0%\r\n[libx264 @ 0000021b980bab00] i16 v,h,dc,p: 16% 42% 12% 30%\r\n[libx264 @ 0000021b980bab00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 24% 37%  2%  3%  2%  3%  2%  3%\r\n[libx264 @ 0000021b980bab00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 20% 18%  5%  9%  6%  9%  5%  6%\r\n[libx264 @ 0000021b980bab00] i8c dc,h,v,p: 60% 27% 11%  2%\r\n[libx264 @ 0000021b980bab00] Weighted P-Frames: Y:10.5% UV:6.4%\r\n[libx264 @ 0000021b980bab00] ref P L0: 60.9% 19.3% 14.8%  4.9%  0.2%\r\n[libx264 @ 0000021b980bab00] ref B L0: 86.3% 11.3%  2.4%\r\n[libx264 @ 0000021b980bab00] ref B L1: 96.5%  3.5%\r\n[libx264 @ 0000021b980bab00] kb/s:2801.96\r\n","service":"user-service"}
 {"level":"error","message":"FFmpeg stderr: [aac @ 0000021b97e52fc0] Qavg: 514.304\r\n","service":"user-service"}
+{"level":"info","message":"Processing HLS for: ./uploads/courses/4dbdc390-e632-11ef-8e0a-e359cb953dc2/index.m3u8","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: ffmpeg version N-118422-g1fbe9deee3-20250204 Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)\r\n  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --disable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250204\r\n  libavutil      59. 56.100 / 59. 56.100\r\n  libavcodec     61. 32.101 / 61. 32.101\r\n  libavformat    61.  9.106 / 61.  9.106\r\n  libavdevice    61.  4.100 / 61.  4.100\r\n  libavfilter    10.  9.100 / 10.  9.100\r\n  libswscale      8. 13.100 /  8. 13.100\r\n  libswresample   5.  4.100 /  5.  4.100","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r\n  libpostproc    58.  4.100 / 58.  4.100\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'uploads\\file-4da70740-e632-11ef-8e0a-e359cb953dc2.mp4':\r\n  Metadata:\r\n    major_brand     : mp42\r\n    minor_version   : 0\r\n    compatible_brands: mp41isom\r\n    creation_time   : 2025-01-18T08:39:02.000000Z\r\n  Duration: 00:00:05.55, start: 0.000000, bitrate: 8540 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuvj420p(pc, unknown/reserved/reserved, progressive), 1280x720 [SAR 1:1 DAR 16:9], 8343 kb/s, 29.89 fps, 60 tbr, 30k tbn (default)\r\n    Metadata:\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : AVC Coding\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr:   Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 181 kb/s (default)\r\n    Metadata:\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Stream mapping:\r\n  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))\r\n  Stream #0:1 -> #0:1 (aac (native) -> aac (native))\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Press [q] to stop, [?] for help\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 0000024fae49ea40] using SAR=1/1\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 0000024fae49ea40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 0000024fae49ea40] profile High, level 3.1, 4:2:0, 8-bit\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 0000024fae49ea40] 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Output #0, hls, to './uploads/courses/4dbdc390-e632-11ef-8e0a-e359cb953dc2/index.m3u8':\r\n  Metadata:\r\n    major_brand     : mp42\r\n    minor_version   : 0\r\n    compatible_brands: mp41isom\r\n    encoder         : Lavf61.9.106\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr:   Stream #0:0(und): Video: h264, yuvj420p(pc, unknown/reserved/reserved, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 90k tbn (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 libx264\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n    Side data:\r\n      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\r\n  Stream #0:1(und): Audio: aac (LC), 48000 Hz, stereo, fltp, 128 kb/s (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 aac\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=N/A bitrate=N/A dup=1 drop=0 speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   41 fps= 39 q=29.0 size=N/A time=00:00:01.30 bitrate=N/A dup=1 drop=0 speed=1.25x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   88 fps= 56 q=29.0 size=N/A time=00:00:02.86 bitrate=N/A dup=1 drop=0 speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  145 fps= 70 q=29.0 size=N/A time=N/A bitrate=N/A dup=1 drop=0 speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 0000024fb05fe040] Opening './uploads/courses/4dbdc390-e632-11ef-8e0a-e359cb953dc2/segment000.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [out#0/hls @ 0000024fae40fe40] video:1262KiB audio:45KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nframe=  167 fps= 74 q=-1.0 Lsize=N/A time=00:00:05.50 bitrate=N/A dup=1 drop=0 speed=2.44x    \r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 0000024fae49ea40] frame I:1     Avg QP:23.14  size: 33209\r\n[libx264 @ 0000024fae49ea40] frame P:42    Avg QP:21.57  size: 14938\r\n[libx264 @ 0000024fae49ea40] frame B:124   Avg QP:23.36  size:  5085\r\n[libx264 @ 0000024fae49ea40] consecutive B-frames:  0.6%  1.2%  0.0% 98.2%\r\n[libx264 @ 0000024fae49ea40] mb I  I16..4: 30.2% 59.0% 10.7%\r\n[libx264 @ 0000024fae49ea40] mb P  I16..4:  9.6% 12.7%  1.2%  P16..4: 45.2%  9.5%  5.4%  0.0%  0.0%    skip:16.3%\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 0000024fae49ea40] mb B  I16..4:  0.8%  0.8%  0.0%  B16..8: 33.4%  2.5%  0.3%  direct:12.3%  skip:49.8%  L0:47.0% L1:50.3% BI: 2.8%\r\n[libx264 @ 0000024fae49ea40] 8x8 transform intra:53.6% inter:82.7%\r\n[libx264 @ 0000024fae49ea40] coded y,uvDC,uvAC intra: 29.4% 65.9% 9.3% inter: 11.6% 34.2% 0.1%\r\n[libx264 @ 0000024fae49ea40] i16 v,h,dc,p: 30% 29% 20% 22%\r\n[libx264 @ 0000024fae49ea40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 15% 40%  4%  5%  5%  4%  4%  4%\r\n[libx264 @ 0000024fae49ea40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 15% 17%  7%  9%  9%  7%  7%  5%\r\n[libx264 @ 0000024fae49ea40] i8c dc,h,v,p: 51% 22% 23%  4%\r\n[libx264 @ 0000024fae49ea40] Weighted P-Frames: Y:0.0% UV:0.0%\r\n[libx264 @ 0000024fae49ea40] ref P L0: 54.0%  7.9% 25.8% 12.2%\r\n[libx264 @ 0000024fae49ea40] ref B L0: 86.6% 10.1%  3.3%\r\n[libx264 @ 0000024fae49ea40] ref B L1: 95.8%  4.2%\r\n[libx264 @ 0000024fae49ea40] kb/s:1855.56\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [aac @ 0000024fb09ac080] Qavg: 43349.344\r\n","service":"user-service"}
+{"level":"info","message":"Processing HLS for: ./uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/index.m3u8","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: ffmpeg version N-118422-g1fbe9deee3-20250204 Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)\r\n  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --disable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250204\r\n  libavutil      59. 56.100 / 59. 56.100\r\n  libavcodec     61. 32.101 / 61. 32.101\r\n  libavformat    61.  9.106 / 61.  9.106\r\n  libavdevice    61.  4.100 / 61.  4.100\r\n  libavfilter    10.  9.100 / 10.  9.100\r\n  libswscale      8. 13.100 /  8. 13.100\r\n  libswresample   5.  4.100 /  5.  4.100","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r\n  libpostproc    58.  4.100 / 58.  4.100\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'uploads\\file-6b39ad30-e632-11ef-8e0a-e359cb953dc2.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf58.76.100\r\n  Duration: 00:05:21.02, start: 0.000000, bitrate: 2139 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2003 kb/s, 29.97 fps, 29.97 tbr, 30k tbn (default)\r\n    Metadata:\r\n      handler_name    : ISO Media file produced by Google Inc.\r\n      vendor_id       : [0][0][0][0]","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r\n  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\r\n    Metadata:\r\n      handler_name    : ISO Media file produced by Google Inc.\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Stream mapping:\r\n  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))\r\n  Stream #0:1 -> #0:1 (aac (native) -> aac (native))\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Press [q] to stop, [?] for help\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001e87f14e680] using SAR=1/1\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001e87f14e680] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001e87f14e680] profile High, level 4.0, 4:2:0, 8-bit\r\n[libx264 @ 000001e87f14e680] 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Output #0, hls, to './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/index.m3u8':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.9.106\r\n  Stream #0:0(und): Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 90k tbn (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 libx264\r\n      handler_name    : ISO Media file produced by Google Inc.\r\n      vendor_id       : [0][0][0][0]\r\n    Side data:\r\n      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\r\n  Stream #0:1(eng): Audio: aac (LC), 44100 Hz, stereo, fltp, 128 kb/s (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 aac\r\n      handler_name    : ISO Media file produced by Google Inc.\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=N/A bitrate=N/A speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=N/A bitrate=N/A speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   18 fps= 12 q=29.0 size=N/A time=00:00:00.53 bitrate=N/A speed=0.346x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   38 fps= 19 q=29.0 size=N/A time=00:00:01.20 bitrate=N/A speed=0.587x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   59 fps= 23 q=29.0 size=N/A time=00:00:01.90 bitrate=N/A speed=0.739x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   76 fps= 25 q=29.0 size=N/A time=00:00:02.46 bitrate=N/A speed=0.801x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   96 fps= 27 q=29.0 size=N/A time=00:00:03.13 bitrate=N/A speed=0.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  118 fps= 29 q=29.0 size=N/A time=00:00:03.87 bitrate=N/A speed=0.941x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  136 fps= 29 q=29.0 size=N/A time=00:00:04.47 bitrate=N/A speed=0.966x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  163 fps= 32 q=29.0 size=N/A time=00:00:05.37 bitrate=N/A speed=1.04x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  184 fps= 33 q=29.0 size=N/A time=00:00:06.07 bitrate=N/A speed=1.07x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  214 fps= 35 q=29.0 size=N/A time=00:00:07.07 bitrate=N/A speed=1.14x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  234 fps= 35 q=26.0 size=N/A time=00:00:07.74 bitrate=N/A speed=1.15x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  262 fps= 36 q=29.0 size=N/A time=00:00:08.67 bitrate=N/A speed= 1.2x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  295 fps= 38 q=29.0 size=N/A time=00:00:09.77 bitrate=N/A speed=1.26x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  320 fps= 39 q=29.0 size=N/A time=00:00:10.61 bitrate=N/A speed=1.28x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  346 fps= 39 q=29.0 size=N/A time=00:00:11.47 bitrate=N/A speed=1.31x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  382 fps= 41 q=29.0 size=N/A time=00:00:12.67 bitrate=N/A speed=1.36x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  412 fps= 42 q=29.0 size=N/A time=00:00:13.68 bitrate=N/A speed=1.39x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  440 fps= 43 q=29.0 size=N/A time=00:00:14.61 bitrate=N/A speed=1.41x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  470 fps= 43 q=29.0 size=N/A time=00:00:15.61 bitrate=N/A speed=1.44x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  488 fps= 43 q=29.0 size=N/A time=00:00:16.21 bitrate=N/A speed=1.43x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment000.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  507 fps= 43 q=29.0 size=N/A time=00:00:16.85 bitrate=N/A speed=1.42x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  529 fps= 43 q=29.0 size=N/A time=00:00:17.58 bitrate=N/A speed=1.42x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  549 fps= 43 q=29.0 size=N/A time=00:00:18.25 bitrate=N/A speed=1.41x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  573 fps= 43 q=29.0 size=N/A time=00:00:19.05 bitrate=N/A speed=1.42x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  593 fps= 43 q=29.0 size=N/A time=00:00:19.71 bitrate=N/A speed=1.41x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  615 fps= 43 q=29.0 size=N/A time=00:00:20.45 bitrate=N/A speed=1.41x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  641 fps= 43 q=29.0 size=N/A time=00:00:21.32 bitrate=N/A speed=1.42x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  661 fps= 43 q=29.0 size=N/A time=00:00:21.98 bitrate=N/A speed=1.42x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  685 fps= 43 q=29.0 size=N/A time=00:00:22.78 bitrate=N/A speed=1.42x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  712 fps= 43 q=29.0 size=N/A time=00:00:23.69 bitrate=N/A speed=1.43x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  729 fps= 43 q=29.0 size=N/A time=00:00:24.25 bitrate=N/A speed=1.42x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment001.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  757 fps= 43 q=29.0 size=N/A time=00:00:25.19 bitrate=N/A speed=1.44x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  779 fps= 43 q=29.0 size=N/A time=00:00:25.92 bitrate=N/A speed=1.43x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  804 fps= 43 q=29.0 size=N/A time=00:00:26.76 bitrate=N/A speed=1.44x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  830 fps= 43 q=29.0 size=N/A time=00:00:27.62 bitrate=N/A speed=1.45x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  851 fps= 43 q=29.0 size=N/A time=00:00:28.32 bitrate=N/A speed=1.44x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  871 fps= 43 q=29.0 size=N/A time=00:00:28.99 bitrate=N/A speed=1.44x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  891 fps= 43 q=29.0 size=N/A time=00:00:29.66 bitrate=N/A speed=1.44x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  915 fps= 43 q=29.0 size=N/A time=00:00:30.46 bitrate=N/A speed=1.44x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  939 fps= 43 q=29.0 size=N/A time=00:00:31.26 bitrate=N/A speed=1.44x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  959 fps= 43 q=29.0 size=N/A time=00:00:31.93 bitrate=N/A speed=1.44x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  977 fps= 43 q=29.0 size=N/A time=00:00:32.53 bitrate=N/A speed=1.43x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment002.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1009 fps= 43 q=29.0 size=N/A time=00:00:33.60 bitrate=N/A speed=1.45x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1040 fps= 44 q=29.0 size=N/A time=00:00:34.63 bitrate=N/A speed=1.46x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1061 fps= 44 q=29.0 size=N/A time=00:00:35.33 bitrate=N/A speed=1.46x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1096 fps= 44 q=29.0 size=N/A time=00:00:36.50 bitrate=N/A speed=1.47x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1121 fps= 44 q=29.0 size=N/A time=00:00:37.33 bitrate=N/A speed=1.48x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1150 fps= 45 q=29.0 size=N/A time=00:00:38.30 bitrate=N/A speed=1.48x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1177 fps= 45 q=29.0 size=N/A time=00:00:39.20 bitrate=N/A speed=1.49x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1212 fps= 45 q=29.0 size=N/A time=00:00:40.37 bitrate=N/A speed= 1.5x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1233 fps= 45 q=29.0 size=N/A time=00:00:41.07 bitrate=N/A speed= 1.5x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment003.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1266 fps= 45 q=29.0 size=N/A time=00:00:42.17 bitrate=N/A speed=1.51x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1295 fps= 46 q=29.0 size=N/A time=00:00:43.14 bitrate=N/A speed=1.52x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1321 fps= 46 q=29.0 size=N/A time=00:00:44.01 bitrate=N/A speed=1.52x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1354 fps= 46 q=29.0 size=N/A time=00:00:45.11 bitrate=N/A speed=1.53x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1377 fps= 46 q=29.0 size=N/A time=00:00:45.87 bitrate=N/A speed=1.53x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1406 fps= 46 q=29.0 size=N/A time=00:00:46.84 bitrate=N/A speed=1.54x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1431 fps= 46 q=29.0 size=N/A time=00:00:47.68 bitrate=N/A speed=1.54x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1461 fps= 46 q=29.0 size=N/A time=00:00:48.68 bitrate=N/A speed=1.55x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1490 fps= 47 q=29.0 size=N/A time=00:00:49.64 bitrate=N/A speed=1.55x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment004.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1525 fps= 47 q=29.0 size=N/A time=00:00:50.81 bitrate=N/A speed=1.56x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1559 fps= 47 q=29.0 size=N/A time=00:00:51.95 bitrate=N/A speed=1.57x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1591 fps= 47 q=29.0 size=N/A time=00:00:53.01 bitrate=N/A speed=1.58x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1628 fps= 48 q=29.0 size=N/A time=00:00:54.25 bitrate=N/A speed=1.59x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1671 fps= 48 q=29.0 size=N/A time=00:00:55.65 bitrate=N/A speed=1.61x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1709 fps= 49 q=29.0 size=N/A time=00:00:56.95 bitrate=N/A speed=1.62x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1746 fps= 49 q=29.0 size=N/A time=00:00:58.19 bitrate=N/A speed=1.63x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1777 fps= 49 q=29.0 size=N/A time=00:00:59.22 bitrate=N/A speed=1.64x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1817 fps= 50 q=29.0 size=N/A time=00:01:00.56 bitrate=N/A speed=1.65x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1859 fps= 50 q=29.0 size=N/A time=00:01:01.96 bitrate=N/A speed=1.67x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1896 fps= 50 q=29.0 size=N/A time=00:01:03.19 bitrate=N/A speed=1.68x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1937 fps= 51 q=29.0 size=N/A time=00:01:04.56 bitrate=N/A speed=1.69x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 1979 fps= 51 q=29.0 size=N/A time=00:01:05.96 bitrate=N/A speed= 1.7x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment005.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2020 fps= 51 q=29.0 size=N/A time=00:01:07.33 bitrate=N/A speed=1.71x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2059 fps= 52 q=29.0 size=N/A time=00:01:08.63 bitrate=N/A speed=1.72x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2093 fps= 52 q=29.0 size=N/A time=00:01:09.76 bitrate=N/A speed=1.73x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2137 fps= 52 q=29.0 size=N/A time=00:01:11.23 bitrate=N/A speed=1.74x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2171 fps= 53 q=29.0 size=N/A time=00:01:12.37 bitrate=N/A speed=1.75x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2202 fps= 53 q=29.0 size=N/A time=00:01:13.40 bitrate=N/A speed=1.75x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2232 fps= 53 q=29.0 size=N/A time=00:01:14.40 bitrate=N/A speed=1.76x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment006.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2261 fps= 53 q=29.0 size=N/A time=00:01:15.37 bitrate=N/A speed=1.76x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2289 fps= 53 q=29.0 size=N/A time=00:01:16.30 bitrate=N/A speed=1.76x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2321 fps= 53 q=29.0 size=N/A time=00:01:17.37 bitrate=N/A speed=1.76x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2360 fps= 53 q=29.0 size=N/A time=00:01:18.67 bitrate=N/A speed=1.77x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2397 fps= 53 q=29.0 size=N/A time=00:01:19.91 bitrate=N/A speed=1.78x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2436 fps= 54 q=29.0 size=N/A time=00:01:21.21 bitrate=N/A speed=1.79x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2473 fps= 54 q=29.0 size=N/A time=00:01:22.44 bitrate=N/A speed=1.79x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment007.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2506 fps= 54 q=29.0 size=N/A time=00:01:23.55 bitrate=N/A speed= 1.8x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2542 fps= 54 q=29.0 size=N/A time=00:01:24.75 bitrate=N/A speed= 1.8x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2577 fps= 54 q=29.0 size=N/A time=00:01:25.91 bitrate=N/A speed=1.81x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2612 fps= 54 q=29.0 size=N/A time=00:01:27.08 bitrate=N/A speed=1.81x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2653 fps= 55 q=29.0 size=N/A time=00:01:28.45 bitrate=N/A speed=1.82x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2685 fps= 55 q=29.0 size=N/A time=00:01:29.52 bitrate=N/A speed=1.82x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2720 fps= 55 q=29.0 size=N/A time=00:01:30.69 bitrate=N/A speed=1.83x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2750 fps= 55 q=29.0 size=N/A time=00:01:31.69 bitrate=N/A speed=1.83x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment008.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2779 fps= 55 q=29.0 size=N/A time=00:01:32.65 bitrate=N/A speed=1.83x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2811 fps= 55 q=29.0 size=N/A time=00:01:33.72 bitrate=N/A speed=1.83x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2842 fps= 55 q=29.0 size=N/A time=00:01:34.76 bitrate=N/A speed=1.83x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2871 fps= 55 q=29.0 size=N/A time=00:01:35.72 bitrate=N/A speed=1.83x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2903 fps= 55 q=29.0 size=N/A time=00:01:36.79 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2932 fps= 55 q=29.0 size=N/A time=00:01:37.76 bitrate=N/A speed=1.84x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2967 fps= 55 q=29.0 size=N/A time=00:01:38.93 bitrate=N/A speed=1.84x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 2996 fps= 55 q=29.0 size=N/A time=00:01:39.89 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment009.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3029 fps= 55 q=29.0 size=N/A time=00:01:41.00 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3061 fps= 55 q=29.0 size=N/A time=00:01:42.06 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3090 fps= 55 q=29.0 size=N/A time=00:01:43.03 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3113 fps= 55 q=29.0 size=N/A time=00:01:43.80 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3136 fps= 55 q=29.0 size=N/A time=00:01:44.57 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3158 fps= 55 q=29.0 size=N/A time=00:01:45.30 bitrate=N/A speed=1.84x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3182 fps= 55 q=29.0 size=N/A time=00:01:46.10 bitrate=N/A speed=1.83x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3214 fps= 55 q=29.0 size=N/A time=00:01:47.17 bitrate=N/A speed=1.83x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3245 fps= 55 q=29.0 size=N/A time=00:01:48.20 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3281 fps= 55 q=29.0 size=N/A time=00:01:49.40 bitrate=N/A speed=1.84x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3314 fps= 55 q=29.0 size=N/A time=00:01:50.51 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3345 fps= 55 q=29.0 size=N/A time=00:01:51.54 bitrate=N/A speed=1.84x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3377 fps= 55 q=29.0 size=N/A time=00:01:52.61 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3409 fps= 55 q=29.0 size=N/A time=00:01:53.68 bitrate=N/A speed=1.85x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3441 fps= 55 q=29.0 size=N/A time=00:01:54.74 bitrate=N/A speed=1.85x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3464 fps= 55 q=29.0 size=N/A time=00:01:55.51 bitrate=N/A speed=1.85x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3500 fps= 55 q=29.0 size=N/A time=00:01:56.71 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment010.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3530 fps= 56 q=29.0 size=N/A time=00:01:57.71 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3555 fps= 55 q=29.0 size=N/A time=00:01:58.55 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3585 fps= 55 q=29.0 size=N/A time=00:01:59.55 bitrate=N/A speed=1.85x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3613 fps= 55 q=29.0 size=N/A time=00:02:00.48 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3648 fps= 56 q=29.0 size=N/A time=00:02:01.65 bitrate=N/A speed=1.85x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3679 fps= 56 q=29.0 size=N/A time=00:02:02.68 bitrate=N/A speed=1.85x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3711 fps= 56 q=29.0 size=N/A time=00:02:03.75 bitrate=N/A speed=1.86x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3744 fps= 56 q=29.0 size=N/A time=00:02:04.85 bitrate=N/A speed=1.86x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment011.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3772 fps= 56 q=29.0 size=N/A time=00:02:05.79 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3811 fps= 56 q=29.0 size=N/A time=00:02:07.09 bitrate=N/A speed=1.86x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3839 fps= 56 q=29.0 size=N/A time=00:02:08.02 bitrate=N/A speed=1.86x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3869 fps= 56 q=29.0 size=N/A time=00:02:09.02 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3895 fps= 56 q=29.0 size=N/A time=00:02:09.89 bitrate=N/A speed=1.86x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3933 fps= 56 q=29.0 size=N/A time=00:02:11.16 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3969 fps= 56 q=29.0 size=N/A time=00:02:12.36 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 3997 fps= 56 q=29.0 size=N/A time=00:02:13.29 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment012.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4033 fps= 56 q=29.0 size=N/A time=00:02:14.50 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4066 fps= 56 q=29.0 size=N/A time=00:02:15.60 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4101 fps= 56 q=29.0 size=N/A time=00:02:16.76 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4135 fps= 56 q=29.0 size=N/A time=00:02:17.90 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4169 fps= 56 q=29.0 size=N/A time=00:02:19.03 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4189 fps= 56 q=29.0 size=N/A time=00:02:19.70 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4225 fps= 56 q=29.0 size=N/A time=00:02:20.90 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment013.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4257 fps= 56 q=29.0 size=N/A time=00:02:21.97 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4289 fps= 56 q=29.0 size=N/A time=00:02:23.04 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4319 fps= 56 q=29.0 size=N/A time=00:02:24.04 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4345 fps= 56 q=29.0 size=N/A time=00:02:24.91 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4366 fps= 56 q=29.0 size=N/A time=00:02:25.61 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4391 fps= 56 q=29.0 size=N/A time=00:02:26.44 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4418 fps= 56 q=29.0 size=N/A time=00:02:27.34 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4458 fps= 56 q=29.0 size=N/A time=00:02:28.68 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4482 fps= 56 q=29.0 size=N/A time=00:02:29.48 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment014.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4513 fps= 56 q=29.0 size=N/A time=00:02:30.51 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4546 fps= 56 q=29.0 size=N/A time=00:02:31.61 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4579 fps= 56 q=29.0 size=N/A time=00:02:32.71 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4613 fps= 56 q=29.0 size=N/A time=00:02:33.85 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4645 fps= 57 q=29.0 size=N/A time=00:02:34.92 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4679 fps= 57 q=29.0 size=N/A time=00:02:36.05 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4705 fps= 57 q=29.0 size=N/A time=00:02:36.92 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4740 fps= 57 q=29.0 size=N/A time=00:02:38.09 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4775 fps= 57 q=29.0 size=N/A time=00:02:39.25 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4810 fps= 57 q=29.0 size=N/A time=00:02:40.42 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4840 fps= 57 q=29.0 size=N/A time=00:02:41.42 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4874 fps= 57 q=29.0 size=N/A time=00:02:42.56 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4906 fps= 57 q=29.0 size=N/A time=00:02:43.63 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4938 fps= 57 q=29.0 size=N/A time=00:02:44.69 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4972 fps= 57 q=29.0 size=N/A time=00:02:45.83 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 4999 fps= 57 q=29.0 size=N/A time=00:02:46.73 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment015.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5020 fps= 57 q=29.0 size=N/A time=00:02:47.43 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5047 fps= 57 q=29.0 size=N/A time=00:02:48.33 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5073 fps= 57 q=29.0 size=N/A time=00:02:49.20 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5102 fps= 57 q=29.0 size=N/A time=00:02:50.17 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5133 fps= 57 q=29.0 size=N/A time=00:02:51.20 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5166 fps= 57 q=29.0 size=N/A time=00:02:52.30 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5200 fps= 57 q=29.0 size=N/A time=00:02:53.43 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5234 fps= 57 q=26.0 size=N/A time=00:02:54.57 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment016.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5269 fps= 57 q=29.0 size=N/A time=00:02:55.74 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5304 fps= 57 q=29.0 size=N/A time=00:02:56.91 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5332 fps= 57 q=29.0 size=N/A time=00:02:57.84 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5365 fps= 57 q=29.0 size=N/A time=00:02:58.94 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5395 fps= 57 q=29.0 size=N/A time=00:02:59.94 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5420 fps= 57 q=29.0 size=N/A time=00:03:00.78 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5445 fps= 57 q=29.0 size=N/A time=00:03:01.61 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5470 fps= 57 q=29.0 size=N/A time=00:03:02.44 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5495 fps= 57 q=29.0 size=N/A time=00:03:03.28 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment017.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5529 fps= 57 q=29.0 size=N/A time=00:03:04.41 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5564 fps= 57 q=29.0 size=N/A time=00:03:05.58 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5595 fps= 57 q=29.0 size=N/A time=00:03:06.61 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5621 fps= 57 q=29.0 size=N/A time=00:03:07.48 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5652 fps= 57 q=29.0 size=N/A time=00:03:08.52 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5686 fps= 57 q=29.0 size=N/A time=00:03:09.65 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5713 fps= 57 q=29.0 size=N/A time=00:03:10.55 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5741 fps= 57 q=29.0 size=N/A time=00:03:11.49 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment018.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5770 fps= 57 q=29.0 size=N/A time=00:03:12.45 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5802 fps= 57 q=29.0 size=N/A time=00:03:13.52 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5833 fps= 57 q=29.0 size=N/A time=00:03:14.56 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5863 fps= 57 q=29.0 size=N/A time=00:03:15.56 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5890 fps= 57 q=29.0 size=N/A time=00:03:16.46 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5912 fps= 57 q=29.0 size=N/A time=00:03:17.19 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5931 fps= 57 q=29.0 size=N/A time=00:03:17.83 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5956 fps= 57 q=29.0 size=N/A time=00:03:18.66 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 5987 fps= 57 q=29.0 size=N/A time=00:03:19.69 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment019.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6018 fps= 57 q=29.0 size=N/A time=00:03:20.73 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6048 fps= 57 q=29.0 size=N/A time=00:03:21.73 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6077 fps= 57 q=29.0 size=N/A time=00:03:22.70 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6105 fps= 57 q=29.0 size=N/A time=00:03:23.63 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6136 fps= 57 q=29.0 size=N/A time=00:03:24.67 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6165 fps= 57 q=29.0 size=N/A time=00:03:25.63 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6190 fps= 57 q=29.0 size=N/A time=00:03:26.47 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6215 fps= 57 q=29.0 size=N/A time=00:03:27.30 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6234 fps= 57 q=26.0 size=N/A time=00:03:27.94 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6254 fps= 57 q=29.0 size=N/A time=00:03:28.60 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6273 fps= 56 q=29.0 size=N/A time=00:03:29.24 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6293 fps= 56 q=29.0 size=N/A time=00:03:29.90 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6313 fps= 56 q=29.0 size=N/A time=00:03:30.57 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6338 fps= 56 q=29.0 size=N/A time=00:03:31.41 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6361 fps= 56 q=29.0 size=N/A time=00:03:32.17 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6385 fps= 56 q=29.0 size=N/A time=00:03:32.97 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6409 fps= 56 q=29.0 size=N/A time=00:03:33.78 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6431 fps= 56 q=29.0 size=N/A time=00:03:34.51 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6451 fps= 56 q=29.0 size=N/A time=00:03:35.18 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6471 fps= 56 q=29.0 size=N/A time=00:03:35.84 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6494 fps= 56 q=29.0 size=N/A time=00:03:36.61 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment020.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6518 fps= 56 q=29.0 size=N/A time=00:03:37.41 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6541 fps= 56 q=29.0 size=N/A time=00:03:38.18 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6576 fps= 56 q=29.0 size=N/A time=00:03:39.35 bitrate=N/A speed=1.86x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6613 fps= 56 q=29.0 size=N/A time=00:03:40.58 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6639 fps= 56 q=29.0 size=N/A time=00:03:41.45 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6675 fps= 56 q=29.0 size=N/A time=00:03:42.65 bitrate=N/A speed=1.86x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6709 fps= 56 q=29.0 size=N/A time=00:03:43.79 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6744 fps= 56 q=29.0 size=N/A time=00:03:44.95 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment021.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6783 fps= 56 q=29.0 size=N/A time=00:03:46.25 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6809 fps= 56 q=29.0 size=N/A time=00:03:47.12 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6842 fps= 56 q=29.0 size=N/A time=00:03:48.22 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6874 fps= 56 q=29.0 size=N/A time=00:03:49.29 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6905 fps= 56 q=29.0 size=N/A time=00:03:50.33 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6926 fps= 56 q=29.0 size=N/A time=00:03:51.03 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6952 fps= 56 q=29.0 size=N/A time=00:03:51.89 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 6975 fps= 56 q=29.0 size=N/A time=00:03:52.66 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment022.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7013 fps= 56 q=29.0 size=N/A time=00:03:53.93 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7040 fps= 56 q=29.0 size=N/A time=00:03:54.83 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7075 fps= 56 q=29.0 size=N/A time=00:03:56.00 bitrate=N/A speed=1.87x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7114 fps= 56 q=29.0 size=N/A time=00:03:57.30 bitrate=N/A speed=1.87x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7153 fps= 56 q=29.0 size=N/A time=00:03:58.60 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7196 fps= 56 q=29.0 size=N/A time=00:04:00.03 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7224 fps= 56 q=29.0 size=N/A time=00:04:00.97 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment023.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7263 fps= 56 q=29.0 size=N/A time=00:04:02.27 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7301 fps= 56 q=29.0 size=N/A time=00:04:03.54 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7341 fps= 57 q=29.0 size=N/A time=00:04:04.87 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7373 fps= 57 q=29.0 size=N/A time=00:04:05.94 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7412 fps= 57 q=29.0 size=N/A time=00:04:07.24 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7450 fps= 57 q=29.0 size=N/A time=00:04:08.51 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7491 fps= 57 q=29.0 size=N/A time=00:04:09.88 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment024.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7526 fps= 57 q=29.0 size=N/A time=00:04:11.05 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7557 fps= 57 q=29.0 size=N/A time=00:04:12.08 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7587 fps= 57 q=29.0 size=N/A time=00:04:13.08 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7608 fps= 57 q=29.0 size=N/A time=00:04:13.78 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7633 fps= 57 q=29.0 size=N/A time=00:04:14.62 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7654 fps= 57 q=29.0 size=N/A time=00:04:15.32 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7686 fps= 57 q=29.0 size=N/A time=00:04:16.38 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7721 fps= 57 q=29.0 size=N/A time=00:04:17.55 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7758 fps= 57 q=29.0 size=N/A time=00:04:18.79 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7790 fps= 57 q=29.0 size=N/A time=00:04:19.85 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7826 fps= 57 q=29.0 size=N/A time=00:04:21.06 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7855 fps= 57 q=29.0 size=N/A time=00:04:22.02 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7883 fps= 57 q=29.0 size=N/A time=00:04:22.96 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7908 fps= 57 q=29.0 size=N/A time=00:04:23.79 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7938 fps= 57 q=29.0 size=N/A time=00:04:24.79 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 7965 fps= 57 q=29.0 size=N/A time=00:04:25.69 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment025.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8005 fps= 57 q=29.0 size=N/A time=00:04:27.03 bitrate=N/A speed= 1.9x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8038 fps= 57 q=29.0 size=N/A time=00:04:28.10 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8078 fps= 57 q=29.0 size=N/A time=00:04:29.46 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8107 fps= 57 q=29.0 size=N/A time=00:04:30.43 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8134 fps= 57 q=29.0 size=N/A time=00:04:31.33 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8155 fps= 57 q=29.0 size=N/A time=00:04:32.03 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8175 fps= 57 q=29.0 size=N/A time=00:04:32.70 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8193 fps= 57 q=29.0 size=N/A time=00:04:33.30 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8213 fps= 57 q=29.0 size=N/A time=00:04:33.97 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8233 fps= 57 q=29.0 size=N/A time=00:04:34.64 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment026.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8259 fps= 57 q=29.0 size=N/A time=00:04:35.50 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8283 fps= 57 q=29.0 size=N/A time=00:04:36.30 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8311 fps= 57 q=29.0 size=N/A time=00:04:37.24 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8336 fps= 57 q=29.0 size=N/A time=00:04:38.07 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8359 fps= 57 q=29.0 size=N/A time=00:04:38.84 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8391 fps= 57 q=29.0 size=N/A time=00:04:39.91 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8421 fps= 57 q=29.0 size=N/A time=00:04:40.91 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8454 fps= 57 q=29.0 size=N/A time=00:04:42.01 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8478 fps= 57 q=29.0 size=N/A time=00:04:42.81 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8500 fps= 57 q=29.0 size=N/A time=00:04:43.54 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment027.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8521 fps= 56 q=29.0 size=N/A time=00:04:44.25 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8547 fps= 56 q=29.0 size=N/A time=00:04:45.11 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8574 fps= 56 q=29.0 size=N/A time=00:04:46.01 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8602 fps= 56 q=29.0 size=N/A time=00:04:46.95 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8635 fps= 56 q=29.0 size=N/A time=00:04:48.05 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8673 fps= 57 q=29.0 size=N/A time=00:04:49.32 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8707 fps= 57 q=29.0 size=N/A time=00:04:50.45 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8738 fps= 57 q=29.0 size=N/A time=00:04:51.49 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment028.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8776 fps= 57 q=29.0 size=N/A time=00:04:52.75 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8808 fps= 57 q=29.0 size=N/A time=00:04:53.82 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8841 fps= 57 q=29.0 size=N/A time=00:04:54.92 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8871 fps= 57 q=29.0 size=N/A time=00:04:55.92 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8909 fps= 57 q=29.0 size=N/A time=00:04:57.19 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8945 fps= 57 q=29.0 size=N/A time=00:04:58.39 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 8983 fps= 57 q=29.0 size=N/A time=00:04:59.66 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment029.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9018 fps= 57 q=29.0 size=N/A time=00:05:00.83 bitrate=N/A speed= 1.9x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9042 fps= 57 q=29.0 size=N/A time=00:05:01.63 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9070 fps= 57 q=29.0 size=N/A time=00:05:02.56 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9095 fps= 57 q=29.0 size=N/A time=00:05:03.40 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9116 fps= 57 q=29.0 size=N/A time=00:05:04.10 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9141 fps= 57 q=29.0 size=N/A time=00:05:04.93 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9163 fps= 57 q=29.0 size=N/A time=00:05:05.67 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9187 fps= 57 q=29.0 size=N/A time=00:05:06.47 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9212 fps= 57 q=29.0 size=N/A time=00:05:07.30 bitrate=N/A speed=1.89x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9241 fps= 57 q=29.0 size=N/A time=00:05:08.27 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9267 fps= 57 q=29.0 size=N/A time=00:05:09.14 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9291 fps= 57 q=29.0 size=N/A time=00:05:09.94 bitrate=N/A speed=1.89x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9318 fps= 57 q=29.0 size=N/A time=00:05:10.84 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9344 fps= 56 q=29.0 size=N/A time=00:05:11.71 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9370 fps= 56 q=29.0 size=N/A time=00:05:12.57 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9395 fps= 56 q=29.0 size=N/A time=00:05:13.41 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9422 fps= 56 q=29.0 size=N/A time=00:05:14.31 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9453 fps= 56 q=29.0 size=N/A time=00:05:15.34 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9484 fps= 56 q=26.0 size=N/A time=00:05:16.38 bitrate=N/A speed=1.88x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment030.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [h264 @ 000001e87d18e1c0] Invalid NAL unit size (395 > 392).\r\n[h264 @ 000001e87d18e1c0] missing picture in access unit with size 396\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9516 fps= 56 q=29.0 size=N/A time=00:05:17.45 bitrate=N/A speed=1.88x    ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [h264 @ 000001e800681980] Invalid NAL unit size (395 > 392).\r\n[h264 @ 000001e800681980] Error splitting the input into NAL units.\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [vist#0:0/h264 @ 000001e87d0a3a80] [dec:h264 @ 000001e87f14ea40] Decoding error: Invalid data found when processing input\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9555 fps= 57 q=29.0 size=N/A time=N/A bitrate=N/A dup=1 drop=0 speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame= 9592 fps= 57 q=29.0 size=N/A time=N/A bitrate=N/A dup=1 drop=0 speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001e87f1a3500] Opening './uploads/courses/6c479ac0-e632-11ef-8e0a-e359cb953dc2/segment031.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [out#0/hls @ 000001e87d100380] video:109779KiB audio:5064KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nframe= 9619 fps= 57 q=-1.0 Lsize=N/A time=00:05:20.88 bitrate=N/A dup=1 drop=0 speed=1.89x    \r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001e87f14e680] frame I:39    Avg QP:17.86  size:216084\r\n[libx264 @ 000001e87f14e680] frame P:3702  Avg QP:21.23  size: 23158\r\n[libx264 @ 000001e87f14e680] frame B:5878  Avg QP:23.84  size:  3105\r\n[libx264 @ 000001e87f14e680] consecutive B-frames:  9.5% 20.5% 19.8% 50.2%\r\n[libx264 @ 000001e87f14e680] mb I  I16..4: 12.9% 65.3% 21.8%\r\n[libx264 @ 000001e87f14e680] mb P  I16..4:  2.7%  5.1%  0.2%  P16..4: 35.2%  9.8%  6.9%  0.0%  0.0%    skip:40.1%\r\n[libx264 @ 000001e87f14e680] mb B  I16..4:  0.3%  0.3%  0.0%  B16..8: 28.8%  0.8%  0.1%  direct: 1.1%  skip:68.6%  L0:36.8% L1:60.2% BI: 3.0%\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001e87f14e680] 8x8 transform intra:62.8% inter:69.1%\r\n[libx264 @ 000001e87f14e680] coded y,uvDC,uvAC intra: 22.1% 30.0% 3.7% inter: 7.3% 6.4% 0.0%\r\n[libx264 @ 000001e87f14e680] i16 v,h,dc,p: 16% 42% 12% 30%\r\n[libx264 @ 000001e87f14e680] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 24% 37%  2%  3%  2%  3%  2%  3%\r\n[libx264 @ 000001e87f14e680] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 20% 18%  5%  9%  6%  9%  5%  6%\r\n[libx264 @ 000001e87f14e680] i8c dc,h,v,p: 60% 27% 11%  2%\r\n[libx264 @ 000001e87f14e680] Weighted P-Frames: Y:10.5% UV:6.4%\r\n[libx264 @ 000001e87f14e680] ref P L0: 60.9% 19.3% 14.8%  4.9%  0.2%\r\n[libx264 @ 000001e87f14e680] ref B L0: 86.3% 11.3%  2.4%\r\n[libx264 @ 000001e87f14e680] ref B L1: 96.5%  3.5%\r\n[libx264 @ 000001e87f14e680] kb/s:2801.96\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [aac @ 000001e87d188940] Qavg: 514.304\r\n","service":"user-service"}
+{"level":"info","message":"Processing HLS for: ./uploads/courses/b34c3670-e63b-11ef-8e0a-e359cb953dc2/index.m3u8","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: ffmpeg version N-118422-g1fbe9deee3-20250204 Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)\r\n  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --disable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250204\r\n  libavutil      59. 56.100 / 59. 56.100\r\n  libavcodec     61. 32.101 / 61. 32.101\r\n  libavformat    61.  9.106 / 61.  9.106\r\n  libavdevice    61.  4.100 / 61.  4.100\r\n  libavfilter    10.  9.100 / 10.  9.100\r\n  libswscale      8. 13.100 /  8. 13.100\r\n  libswresample   5.  4.100 /  5.  4.100\r\n  libpostproc    58.  4.100 / 58.  4.100\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'uploads\\file-b33e05a0-e63b-11ef-8e0a-e359cb953dc2.mp4':\r\n  Metadata:\r\n    major_brand     : mp42\r\n    minor_version   : 0\r\n    compatible_brands: mp41isom\r\n    creation_time   : 2025-01-18T08:39:02.000000Z\r\n  Duration: 00:00:05.55, start: 0.000000, bitrate: 8540 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuvj420p(pc, unknown/reserved/reserved, progressive), 1280x720 [SAR 1:1 DAR 16:9], 8343 kb/s, 29.89 fps, 60 tbr, 30k tbn (default)\r\n    Metadata:\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : AVC Coding\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 181 kb/s (default)\r\n    Metadata:\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr:       handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Stream mapping:\r\n  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))\r\n  Stream #0:1 -> #0:1 (aac (native) -> aac (native))\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Press [q] to stop, [?] for help\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 00000180caf9bc80] using SAR=1/1\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 00000180caf9bc80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 00000180caf9bc80] profile High, level 3.1, 4:2:0, 8-bit\r\n[libx264 @ 00000180caf9bc80] ","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00\r\nOutput #0, hls, to './uploads/courses/b34c3670-e63b-11ef-8e0a-e359cb953dc2/index.m3u8':\r\n  Metadata:\r\n    major_brand     : mp42\r\n    minor_version   : 0\r\n    compatible_brands: mp41isom\r\n    encoder         : Lavf61.9.106\r\n  Stream #0:0(und): Video: h264, yuvj420p(pc, unknown/reserved/reserved, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 90k tbn (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 libx264\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n    Side data:\r\n      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\r\n  Stream #0:1(und): Audio: aac (LC), 48000 Hz, stereo, fltp, 128 kb/s (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 aac\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   24 fps=0.0 q=29.0 size=N/A time=00:00:00.70 bitrate=N/A dup=1 drop=0 speed=1.35x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   81 fps= 78 q=29.0 size=N/A time=00:00:02.63 bitrate=N/A dup=1 drop=0 speed=2.54x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  145 fps= 94 q=29.0 size=N/A time=N/A bitrate=N/A dup=1 drop=0 speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 00000180cd236c00] Opening './uploads/courses/b34c3670-e63b-11ef-8e0a-e359cb953dc2/segment000.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [out#0/hls @ 00000180caf2f180] video:1262KiB audio:45KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nframe=  167 fps=101 q=-1.0 Lsize=N/A time=00:00:05.50 bitrate=N/A dup=1 drop=0 speed=3.34x    \r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 00000180caf9bc80] frame I:1     Avg QP:23.14  size: 33209\r\n[libx264 @ 00000180caf9bc80] frame P:42    Avg QP:21.57  size: 14938\r\n[libx264 @ 00000180caf9bc80] frame B:124   Avg QP:23.36  size:  5085\r\n[libx264 @ 00000180caf9bc80] consecutive B-frames:  0.6%  1.2%  0.0% 98.2%\r\n[libx264 @ 00000180caf9bc80] mb I  I16..4: 30.2% 59.0% 10.7%\r\n[libx264 @ 00000180caf9bc80] mb P  I16..4:  9.6% 12.7%  1.2%  P16..4: 45.2%  9.5%  5.4%  0.0%  0.0%    skip:16.3%\r\n[libx264 @ 00000180caf9bc80] mb B  I16..4:  0.8%  0.8%  0.0%  B16..8: 33.4%  2.5%  0.3%  direct:12.3%  skip:49.8%  L0:47.0% L1:50.3% BI: 2.8%\r\n[libx264 @ 00000180caf9bc80] 8x8 transform intra:53.6% inter:82.7%\r\n[libx264 @ 00000180caf9bc80] coded y,uvDC,uvAC intra: 29.4% 65.9% 9.3% inter: 11.6% 34.2% 0.1%\r\n[libx264 @ 00000180caf9bc80] i16 v,h,dc,p: 30% 29% 20% 22%\r\n[libx264 @ 00000180caf9bc80] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 15% 40%  4%  5%  5%  4%  4%  4%\r\n[libx264 @ 00000180caf9bc80] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 15% 17%  7%  9%  9%  7%  7%  5%\r\n[libx264 @ 00000180caf9bc80] i8c dc,h,v,p: 51% 22% 23%  4%\r\n[libx264 @ 00000180caf9bc80] Weighted P-Frames: Y:0.0% UV:0.0%\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 00000180caf9bc80] ref P L0: 54.0%  7.9% 25.8% 12.2%\r\n[libx264 @ 00000180caf9bc80] ref B L0: 86.6% 10.1%  3.3%\r\n[libx264 @ 00000180caf9bc80] ref B L1: 95.8%  4.2%\r\n[libx264 @ 00000180caf9bc80] kb/s:1855.56\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [aac @ 00000180ccdf6000] Qavg: 43349.344\r\n","service":"user-service"}
+{"level":"info","message":"Processing HLS for: ./uploads/courses/df645c10-e63b-11ef-8e0a-e359cb953dc2/index.m3u8","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: ffmpeg version N-118422-g1fbe9deee3-20250204 Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)\r\n  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --disable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250204\r\n  libavutil      59. 56.100 / 59. 56.100\r\n  libavcodec     61. 32.101 / 61. 32.101\r\n  libavformat    61.  9.106 / 61.  9.106\r\n  libavdevice    61.  4.100 / 61.  4.100\r\n  libavfilter    10.  9.100 / 10.  9.100\r\n  libswscale      8. 13.100 /  8. 13.100\r\n  libswresample   5.  4.100 /  5.  4.100\r\n  libpostproc    58.  4.100 / 58.  4.100\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'uploads\\file-df60b290-e63b-11ef-8e0a-e359cb953dc2.mp4':\r\n  Metadata:\r\n    major_brand     : mp42\r\n    minor_version   : 0\r\n    compatible_brands: mp41isom\r\n    creation_time   : 2025-01-18T08:39:02.000000Z\r\n  Duration: 00:00:05.55, start: 0.000000, bitrate: 8540 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuvj420p(pc, unknown/reserved/reserved, progressive), 1280x720 [SAR 1:1 DAR 16:9], 8343 kb/s, 29.89 fps, 60 tbr, 30k tbn (default)\r\n    Metadata:\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : AVC Coding\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 181 kb/s (default)\r\n    Metadata:\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr:       handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Stream mapping:\r\n  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))\r\n  Stream #0:1 -> #0:1 (aac (native) -> aac (native))\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Press [q] to stop, [?] for help\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001edaf6ba9c0] using SAR=1/1\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001edaf6ba9c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001edaf6ba9c0] profile High, level 3.1, 4:2:0, 8-bit\r\n[libx264 @ 000001edaf6ba9c0] 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: Output #0, hls, to './uploads/courses/df645c10-e63b-11ef-8e0a-e359cb953dc2/index.m3u8':\r\n  Metadata:\r\n    major_brand     : mp42\r\n    minor_version   : 0\r\n    compatible_brands: mp41isom\r\n    encoder         : Lavf61.9.106\r\n  Stream #0:0(und): Video: h264, yuvj420p(pc, unknown/reserved/reserved, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 90k tbn (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 libx264\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n    Side data:\r\n      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\r\n  Stream #0:1(und): Audio: aac (LC), 48000 Hz, stereo, fltp, 128 kb/s (default)\r\n    Metadata:\r\n      encoder         : Lavc61.32.101 aac\r\n      creation_time   : 2025-01-18T08:39:02.000000Z\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   25 fps=0.0 q=29.0 size=N/A time=00:00:00.76 bitrate=N/A dup=1 drop=0 speed=1.51x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=   88 fps= 85 q=29.0 size=N/A time=00:00:02.86 bitrate=N/A dup=1 drop=0 speed=2.78x    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: frame=  163 fps=105 q=-1.0 size=N/A time=N/A bitrate=N/A dup=1 drop=0 speed=N/A    \r","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [hls @ 000001edaf6cd580] Opening './uploads/courses/df645c10-e63b-11ef-8e0a-e359cb953dc2/segment000.ts' for writing\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [out#0/hls @ 000001edaf650f00] video:1262KiB audio:45KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nframe=  167 fps=107 q=-1.0 Lsize=N/A time=00:00:05.50 bitrate=N/A dup=1 drop=0 speed=3.54x    \r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [libx264 @ 000001edaf6ba9c0] frame I:1     Avg QP:23.14  size: 33209\r\n[libx264 @ 000001edaf6ba9c0] frame P:42    Avg QP:21.57  size: 14938\r\n[libx264 @ 000001edaf6ba9c0] frame B:124   Avg QP:23.36  size:  5085\r\n[libx264 @ 000001edaf6ba9c0] consecutive B-frames:  0.6%  1.2%  0.0% 98.2%\r\n[libx264 @ 000001edaf6ba9c0] mb I  I16..4: 30.2% 59.0% 10.7%\r\n[libx264 @ 000001edaf6ba9c0] mb P  I16..4:  9.6% 12.7%  1.2%  P16..4: 45.2%  9.5%  5.4%  0.0%  0.0%    skip:16.3%","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: \r\n[libx264 @ 000001edaf6ba9c0] mb B  I16..4:  0.8%  0.8%  0.0%  B16..8: 33.4%  2.5%  0.3%  direct:12.3%  skip:49.8%  L0:47.0% L1:50.3% BI: 2.8%\r\n[libx264 @ 000001edaf6ba9c0] 8x8 transform intra:53.6% inter:82.7%\r\n[libx264 @ 000001edaf6ba9c0] coded y,uvDC,uvAC intra: 29.4% 65.9% 9.3% inter: 11.6% 34.2% 0.1%\r\n[libx264 @ 000001edaf6ba9c0] i16 v,h,dc,p: 30% 29% 20% 22%\r\n[libx264 @ 000001edaf6ba9c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 15% 40%  4%  5%  5%  4%  4%  4%\r\n[libx264 @ 000001edaf6ba9c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 15% 17%  7%  9%  9%  7%  7%  5%\r\n[libx264 @ 000001edaf6ba9c0] i8c dc,h,v,p: 51% 22% 23%  4%\r\n[libx264 @ 000001edaf6ba9c0] Weighted P-Frames: Y:0.0% UV:0.0%\r\n[libx264 @ 000001edaf6ba9c0] ref P L0: 54.0%  7.9% 25.8% 12.2%\r\n[libx264 @ 000001edaf6ba9c0] ref B L0: 86.6% 10.1%  3.3%\r\n[libx264 @ 000001edaf6ba9c0] ref B L1: 95.8%  4.2%\r\n[libx264 @ 000001edaf6ba9c0] kb/s:1855.56\r\n","service":"user-service"}
+{"level":"error","message":"FFmpeg stderr: [aac @ 000001edb2761f80] Qavg: 43349.344\r\n","service":"user-service"}
