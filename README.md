@@ -1,8 +1,7 @@
 # PlayWave: Video Streaming App
 
 
-A lightweight and efficient **video streaming application** built with **React, Node.js, and FFmpeg**, allowing users to **upload, process, and stream videos** seamlessly.
-
+This web application is a Node.js-based Express server designed for Adaptive Video Streaming using HTTP Live Streaming (HLS). It enables users to upload videos, converts them into multiple quality levels using FFmpeg, and provides a streamable URL. This proof-of-concept demonstrates how high-tech organizations can implement scalable, efficient, and adaptive video streaming to enhance their e-learning platforms, video-sharing services, and enterprise-level content delivery systems.
 ---
 
 ## 📜 Table of Contents
