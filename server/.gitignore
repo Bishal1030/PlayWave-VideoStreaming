@@ -1,4 +1,5 @@
 node_modules
 uploads
 test-video
-/logger
+logger/combined.txt
+logger/error.txt
