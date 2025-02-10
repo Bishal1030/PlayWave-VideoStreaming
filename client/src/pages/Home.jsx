@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const Home = ({ setLink }) => {
+const Home = ({setLink}) => {
     const [fileChange, setFileChange] = useState(null);
 
     const fileChangeHandler = (e) => {
@@ -16,13 +16,13 @@ const Home = ({ setLink }) => {
             const response = await axios.post("http://localhost:3000/uploads", formData, {
                 headers: {
                     "Content-Type": "multipart/form-data"
-                }
+                }   
             });
-            const { videoUrl } = response.data;
-            setLink(videoUrl); // Ensure setLink is called with videoUrl
+            const{videoUrl} = response.data; 
+            setLink(videoUrl);   
             
         } catch (error) {
-            console.error("Axios error:", error);
+            console.log(error);
         }
     };
 
@@ -31,6 +31,7 @@ const Home = ({ setLink }) => {
             <h1 className='mb-6' style= {{fontFamily: 'Karantina, cursive'}}>Welcome to Play<span className='text-customRed'>Wave</span></h1>
             <div className='flex flex-col items-center'>
             <input
+                data-testid='file-input'
                 type="file"
                 accept="video/*"
                 onChange={fileChangeHandler}

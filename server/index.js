@@ -6,6 +6,10 @@ import logger from "./logger/logger.js";
 import path from "path";
 import fs from "fs";
 import { spawn } from "child_process";
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 
 const app = express();
 
@@ -33,11 +37,11 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/uploads", express.static("uploads"));
+app.use(express.static(path.join(__dirname, "../client/dist")));
 
 // Root Route
 app.get("/", (req, res) => {
-    res.json({ message: "Hello World" });
-    logger.info("GET / successful");
+    res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
 // Video Upload & Processing Route
